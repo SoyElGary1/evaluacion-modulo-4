@@ -43,4 +43,3 @@ jobs:
           mvn -B verify
           org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
           -Dsonar.projectKey=plataforma-salud
-          -Dsonar.organization=${{ secrets.SONAR_ORG }}
